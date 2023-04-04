@@ -11,3 +11,9 @@ My collection of notes, tools, and scripts used for the OSEP
 
 
 https://wadcoms.github.io/
+
+
+
+
+Tunneling:
+* https://neutronsec.com/ptpf/meterpreter_tunneling_and_port_forwarding/
