@@ -1,0 +1,14 @@
+To enable destination systems to receive incoming Remote Desktop connections using RestrictedAdmin mode:
+
+Open Registry Editor: click Start, click Run, type regedit, and then click OK.
+In Registry Editor, create the following registry key:
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa
+
+Name: DisableRestrictedAdmin
+
+Type: REG_DWORD
+
+Value: 0 (This will enable RestrictedAdmin mode so that the destination system will accept incoming RestrictedAdmin-enabled connections)
+
+This setting takes effect immediately; no reboot is required.
+To disable RestrictedAdmin mode, set the value of DisableRestrictedAdmin to 1
