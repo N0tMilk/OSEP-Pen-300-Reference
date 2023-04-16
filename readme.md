@@ -10,7 +10,8 @@ My collection of notes, tools, and scripts used for the OSEP
 * https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet
 
 
-https://wadcoms.github.io/
+interactive cheat sheet:
+* https://wadcoms.github.io/
 
 
 GTFOBins:
