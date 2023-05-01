@@ -1,0 +1,3 @@
+#used the most.
+
+xfreerdp /d:prod /u:USERNAME /p:PASSWORD /v:IPADDRESS /clipboard /size:100% /dynamic-resolution
