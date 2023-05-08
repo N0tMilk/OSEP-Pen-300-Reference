@@ -29,3 +29,6 @@ DotNetToJScript:
 
 PowerShell Constrained Language Mode Bypass:
 * https://github.com/calebstewart/bypass-clm
+
+AntiScanMe:
+* https://antiscan.me/
