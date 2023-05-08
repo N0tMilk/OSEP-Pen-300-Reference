@@ -2,9 +2,6 @@
 My collection of notes, tools, and scripts used for the OSEP
 
 
-
-
-
 * https://github.com/In3x0rabl3/OSEP
 * https://github.com/brianlam38/OSCP-2022/blob/main/cheatsheet-active-directory.md
 * https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet
@@ -13,10 +10,8 @@ My collection of notes, tools, and scripts used for the OSEP
 interactive cheat sheet:
 * https://wadcoms.github.io/
 
-
 GTFOBins:
 * https://gtfobins.github.io/
-
 
 Tunneling:
 * https://neutronsec.com/ptpf/meterpreter_tunneling_and_port_forwarding/
@@ -30,4 +25,7 @@ mimikatz:
 
 
 DotNetToJScript:
-https://github.com/tyranid/DotNetToJScript
+* https://github.com/tyranid/DotNetToJScript
+
+PowerShell Constrained Language Mode Bypass:
+* https://github.com/calebstewart/bypass-clm
