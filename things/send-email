@@ -1,0 +1,1 @@
+swaks --to EMAILADDRESS --server 192.168.x.y --from EMAILADDRESS --header 'Subject: Issues with mail system' --body "Hello. I'm having issues with the mail system. Please see the attachment or screenshoot http://192.168.x.y/email.html" --attach test.js
