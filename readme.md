@@ -36,3 +36,6 @@ AntiScanMe:
 
 MSF CERT Validation:
 * https://www.darkoperator.com/blog/2015/6/14/tip-meterpreter-ssl-certificate-validation
+
+HostRecon:
+* https://github.com/dafthack/HostRecon/tree/master
