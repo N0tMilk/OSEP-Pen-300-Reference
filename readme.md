@@ -39,3 +39,6 @@ MSF CERT Validation:
 
 HostRecon:
 * https://github.com/dafthack/HostRecon/tree/master
+
+Nuclei vuln scaner:
+* https://github.com/projectdiscovery/nuclei
